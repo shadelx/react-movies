@@ -45,6 +45,7 @@ const App = () => {
            onKeyPress ={(e) => {
             if (e.key ==='Enter'){
               e.preventDefault();
+              searchMovies(seachTerm)
             }
            }}
         />
